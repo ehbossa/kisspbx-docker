@@ -1,4 +1,4 @@
-FROM tomcat
+FROM tomcat:11.0.11-jdk25-temurin-noble
 MAINTAINER Iñaki Cívico "icivico@gmail.com"
 WORKDIR /usr/local/tomcat/conf
 RUN rm -f tomcat-users.xml context.xml
